@@ -1,0 +1,54 @@
+
+.align{ text-align: center;}
+
+.table1,.table2 {
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table1 tr th, .table1 tr td, .table2 tr th, .table2 tr td {
+  text-align: left;
+  padding: 5px;
+}
+
+.table1 tr:nth-child(odd), .table2 tr:nth-child(odd){background-color: #f2f2f2}
+
+.table1 th {
+  background-color: #003679;
+  color: white;
+  
+}
+
+
+	
+input[type=text], input[type=Email], input[type=date], input[type=password] {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}	
+
+.datalist1{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.ubtn
+{
+border: none;
+height:35px; 
+width:150px; 
+border-radius: 50px; 
+padding:5px; 
+text-align:center;
+}
